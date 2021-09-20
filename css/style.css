@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: "Helvetica";
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: rgb(187, 185, 185);
+}
+
+header, footer {
+    display: flex;
+    align-items: center;
+    height: 3.125rem;
+
+}
+
+main {
+
+    flex-grow: 1;
+
+}
+p2 {
+    font-style: italic;
+}
