@@ -7,7 +7,32 @@ body {
     flex-direction: column;
     min-height: 100vh;
     background-color: rgb(187, 185, 185);
+    margin: 0;
 }
+
+/* .carousel{
+    width: 800px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(met-interior.jpeg);
+}
+
+.fade {
+    -webkit-animation: 1.5s fade;
+    animation: 1.52s fade;
+}
+
+@-webkit-keyframes fade{
+    from{opacity: 0.4};
+    to{opacity: 1};
+}
+
+@keyframes fade {
+    from{opacity: 0.4};
+    to{opacity: 1};
+} */
+
 
 header, footer {
     display: flex;
@@ -16,11 +41,45 @@ header, footer {
 
 }
 
+header {
+    background-color: #423f3f;
+    color: #ffffff;
+    box-shadow: 1px 1px 5px 3px #808080
+    padding 1rem;
+}
+
+
 main {
-
     flex-grow: 1;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
 
+article {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin: 1rem;
+    width: 30rem;
+    height: 50rem;
+    border-radius: 10px;
+    border: 1px solid #423f3f;
 }
-p2 {
-    font-style: italic;
+
+form {
+    font-size: 24px;
+    
+    
 }
+input {
+    font-size: large;
+    border-color: rgb(255, 255, 255);
+}
+
+ img {
+     height: 600px;
+ }

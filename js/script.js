@@ -7,11 +7,25 @@ $(function () {
     const $form = $('form');
     const $input = $('input[type="text"]');
     const $main = $('main');
-
+    const images = ["met-interior.jpeg","met-interior2.jpeg","met-interior3.jpeg"];
+    // const carousel = $(".carousel");
+    // const interval = setInterval(function() {
+    //     startCarousel();
+    // }, 3000);
+    // let index = 1;
+    // startCarousel = () => {
+    //     carousel.style.backgroundImage = `url(${images[index++]})`;
+    //     carousel.classList.remove("fade");
+    //     void carousel.offsetWidth;
+    //     carousel.classList.add("fade");
+    //     if(index > images.length - 1) index = 0;
+    // }    
     // event listeners
     $form.on('submit', handleGetArt)
 
     //functions
+   
+
     function handleGetArt(event) {
 
         event.preventDefault();
