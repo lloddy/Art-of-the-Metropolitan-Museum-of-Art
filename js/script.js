@@ -7,7 +7,7 @@ $(function () {
     const $form = $('form');
     const $input = $('input[type="text"]');
     const $main = $('main');
-    const images = ["met-interior.jpeg","met-interior2.jpeg","met-interior3.jpeg"];
+    const images = ["met-interior.jpeg", "met-interior2.jpeg", "met-interior3.jpeg"];
     // const carousel = $(".carousel");
     // const interval = setInterval(function() {
     //     startCarousel();
@@ -24,7 +24,7 @@ $(function () {
     $form.on('submit', handleGetArt)
 
     //functions
-   
+
 
     function handleGetArt(event) {
 
