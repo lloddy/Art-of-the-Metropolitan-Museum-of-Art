@@ -50,9 +50,11 @@ $(function () {
             return `<article>
                         <p><img src="${artInfo.image}"</p>
                         <h2>Artist: ${artInfo.artist}</h2>
+                        <p>${artInfo.teaserText}</p>    
                         <p>Title: ${artInfo.title}</p>
                         <p>Medium: ${artInfo.medium}</p>
-                        <p>${artInfo.teaserText}</p>       
+                        <p>Culture: ${artInfo.culture}</p>
+   
                     </article>`;
 
         });
