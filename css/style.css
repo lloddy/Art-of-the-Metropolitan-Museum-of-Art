@@ -36,14 +36,6 @@ body {
 } */
 
 
-header,
-footer {
-    display: flex;
-    align-items: center;
-    height: 3.125rem;
-
-}
-
 header {
     background-color: #423f3f;
     color: #ffffff;
@@ -72,6 +64,7 @@ article {
     border-radius: 10px;
     border: 1px solid #ffffff;
     box-shadow: 1px 1px 5px 3px #808080;
+    text-overflow: ellipsis;
 }
 
 h1 {
@@ -108,6 +101,10 @@ input {
 }
 
 
+footer {
+    display: flex;
+    justify-content: center;
+}
 
 
 /* img {
