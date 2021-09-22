@@ -14,6 +14,6 @@ This is a search engine for art through the Metropolitan Museum of Art using an 
 
 # Getting Started
 
-[https://fervent-edison-ae9da6.netlify.app/] to see the deployed project!
+[https://fervent-edison-ae9da6.netlify.app/]git to see the deployed project!
 
 # Future Enhancements
