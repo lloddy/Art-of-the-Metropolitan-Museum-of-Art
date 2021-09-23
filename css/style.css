@@ -100,6 +100,9 @@ input {
     border-radius: 5px;
 }
 
+.small {
+       display: none;
+}
 
 footer {
     display: flex;
@@ -110,6 +113,23 @@ footer {
     .box {
         display: none;
     }
+
+    .large {
+        display: none
+    }
+    
+    .small {
+        display: block;
+    }
+    
+    head {
+    background-image: url("small.jpeg");
+    background-repeat: no-repeat;
+    max-width: 600px;
+    display: block;
+    position: left top;
+    }   
+    
     h1 {
         color: #ebebeb;
         display: block;
@@ -121,5 +141,6 @@ footer {
         width: 300px;
         height: auto;
         overflow-wrap: break-word;      
+        align-content: flex-start;
     }
 }
