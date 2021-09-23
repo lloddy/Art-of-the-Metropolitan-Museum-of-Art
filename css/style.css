@@ -85,7 +85,7 @@ div2 {
     width: 100px;
     text-align: center;
     padding: 5px;
-    border-radius: 15px; 
+    border-radius: 0 0 15px 0; 
     opacity: .85;
 
 }
