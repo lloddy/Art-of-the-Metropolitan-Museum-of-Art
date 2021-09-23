@@ -117,9 +117,11 @@ footer {
     .large {
         display: none
     }
-    
+
     .small {
         display: block;
+        max-width: 600;
+        height: auto;
     }
     
     head {
