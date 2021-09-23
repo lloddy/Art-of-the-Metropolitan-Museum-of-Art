@@ -58,12 +58,13 @@ article {
     flex-direction: column;
     padding: 1rem;
     margin: 1rem;
-    width: auto;
-    height: auto;
+    width: 600px;
+    height: 850px;
     background-color: #dfdede;
     border-radius: 10px;
     border: 1px solid #ffffff;
     box-shadow: 1px 1px 5px 3px #808080;
+    overflow-wrap: break-word;
 }
 
 h1 {
@@ -105,11 +106,20 @@ footer {
     justify-content: center;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
     .box {
         display: none;
     }
     h1 {
-        color: #ebebeb
+        color: #ebebeb;
+        display: block;
+        max-width: 300px;
+        word-break: break-word;
+        font-size: 24px;
+    }
+    article {
+        width: 300px;
+        height: auto;
+        overflow-wrap: break-word;      
     }
 }

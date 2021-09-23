@@ -50,8 +50,8 @@ $(function () {
             return `<article>
                         <p><img src="${artInfo.image}"</p>
                         <h2>Artist: ${artInfo.artist}</h2>
-                        <p style="width: 500px;">${artInfo.teaserText}</p>    
-                        <p style="width: 500px;">Title: ${artInfo.title}</p>
+                        <p>${artInfo.teaserText}</p>    
+                        <p>Title: ${artInfo.title}</p>
                         <p>Medium: ${artInfo.medium}</p>
                         <p>Culture: ${artInfo.culture}</p>
    
@@ -62,7 +62,7 @@ $(function () {
 
         $main.html(htmlCards);
     }
-
-
+// grab input after click
+// create list of previous entries
 
 })
