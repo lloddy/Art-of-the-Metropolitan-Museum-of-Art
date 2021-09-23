@@ -124,14 +124,6 @@ footer {
         height: auto;
     }
     
-    head {
-    background-image: url("small.jpeg");
-    background-repeat: no-repeat;
-    max-width: 600px;
-    display: block;
-    position: left top;
-    }   
-    
     h1 {
         color: #ebebeb;
         display: block;
