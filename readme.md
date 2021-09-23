@@ -17,3 +17,7 @@ This is a search engine for art through the Metropolitan Museum of Art using an 
 [https://fervent-edison-ae9da6.netlify.app/]git to see the deployed project!
 
 # Future Enhancements
+
+- ability to navigate to multiple pages for results
+- make a log of previous searches displayed to viewer
+- click on "cards" of results to open in a larger view
